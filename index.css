@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  background-color: rgb(216, 223, 223);
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo {
+  height: 45px;
+  border-radius: 5px;
+}
+
+ul {
+  display: flex;
+  width: 20%;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+#searchBar {
+  width: 30%;
+  border-radius: 5px;
+  padding: 5px;
+}
